@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{asset('css/header.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/footer.css')}}">
+    {{-- <link rel="stylesheet" type="text/css" href="{{asset('css/footer.css')}}"> --}}
 </head>
 <body>
 @include('header')
@@ -52,7 +52,7 @@ Tài trợ
 10 tỷ sở hữu căn hộ Grand Manhattan, trả 3 tỷ đến khi nhận nhà10 tỷ sở hữu căn hộ Grand Manhattan, trả 3 tỷ đến khi nhận nhà
 15 phút kiểm tra trình độ tiếng Anh của bạn15 phút kiểm tra trình độ tiếng Anh của bạn
 
-@include('footer')
+{{-- @include('footer') --}}
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
