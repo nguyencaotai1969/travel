@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/master-layout', function () {
+Route::get('/b', function () {
     return view('master-layout');
 });
 
